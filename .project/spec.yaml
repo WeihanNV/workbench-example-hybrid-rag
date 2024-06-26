@@ -104,6 +104,8 @@ execution:
   secrets:
   - variable: NVCF_RUN_KEY
     description: NVCF Run Key for Cloud Inference
+  - variable: NGC_API_KEY
+    description: NGC Personal Key LEY7n
   mounts:
   - type: project
     target: /project/
